@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small;
+}
+
+body {
+  background: #fbf3ff;
+} 
+
+
+.container {
+  position: absolute;
+  max-width: 50%;
+  height: 100px;
+  margin: auto;
+  left: 40%;
+  margin-top: 20px;
+  padding-bottom: 20%;
+} 
+
+
+header {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(223, 20, 128);
+  padding-bottom: 20px;
+  
+
+}
+
+.myLeftCtn {
+  position: relative;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  height: 100%;
+  padding: 50px;
+}
+.myLeftCtn h1 {
+  position: relative;
+  align-content: center;
+  color: rgb(226, 43, 174);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.row{
+height: 100%;
+} 
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+} 
+
+.myLeftCtn .myInput {
+  border-radius: 25px;
+  padding: 15px;
+
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myLeftCtn .myInput:focus {
+  outline: none;
+} 
+.myForm {
+  position: relative;
+  margin-top: 30px;
+} 
+
+#submit {  
+  display: inline-block;  border-radius: 4px;  background-color:deeppink;  border: 1px;  color: #FFFFFF;  text-align: center;  font-size: 15px; padding: 15px;  width: 100px;   cursor: pointer;  margin: 5px;}
+
+
+
+
+
